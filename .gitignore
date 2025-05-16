@@ -1,0 +1,42 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment and config
+.env
+config.json
+
+# Build artifacts
+dist/
+build/
+
+# Ignore Whisper build files
+whisper
+whisper.cpp/
+models/
+uploads/
+*.wav
+*.webm
+*.mp3
+
+# Docker artifacts (optional)
+whisper
+whisper.cpp/
+whisper.cpp*
+docker-compose.yml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

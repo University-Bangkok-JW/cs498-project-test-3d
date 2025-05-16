@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3D AI Chat - Nova</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <style>
+    body { margin: 0; background: #1e1e1e; color: white; font-family: Arial; text-align: center; }
+    #avatar { width: 100vw; height: 60vh; }
+    #textResponse { margin: 20px; font-size: 1.3em; }
+    button { padding: 12px 25px; font-size: 1em; border: none; background: #007bff; color: white; border-radius: 5px; cursor: pointer; }
+    audio { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>🎙️ Talk to Nova</h1>
+  <div id="avatar"></div>
+  <button onclick="recordVoice()">Speak Now</button>
+  <p id="textResponse">Say something...</p>
+  <audio id="aiVoice" controls autoplay></audio>
+  <script src="/js/main.js"></script>
+</body>
+</html>

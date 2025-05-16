@@ -1,0 +1,21 @@
+{
+  "name": "cs498-project-test-3d",
+  "version": "1.0.0",
+  "description": "Voice chat with DeepSeek + Whisper + 3D avatar.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "google-tts-api": "^2.0.2",
+    "multer": "^1.4.5-lts.2",
+    "openai": "^4.98.0"
+  }
+}
