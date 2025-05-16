@@ -1,0 +1,22 @@
+{
+    "name": "Npm",
+    "features": {
+      "ghcr.io/devcontainers-contrib/features/jshint:2": {}
+    },
+    "postCreateCommand": "cd src && npm install",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "workbench.colorTheme": "Default Dark Modern"
+            },
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "alefragnani.bookmarks",
+                "eamodio.gitlens",
+                "dbaeumer.vscode-eslint",
+                "christian-kohler.npm-intellisense",
+                "christian-kohler.path-intellisense"
+            ]
+        }
+    }
+}
